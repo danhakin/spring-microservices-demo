@@ -1,7 +1,7 @@
 node {
 
     stage('Launch') {
-        build job 'discovery-service', wait: false
+        build job: 'discovery-service', wait: false
     }
 
 }
